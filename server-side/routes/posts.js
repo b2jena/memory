@@ -1,4 +1,4 @@
-import express from 'express';
+import express from "express";
 
 import { getPosts, getPostsBySearch, getPostsByCreator, getPost, createPost, updatePost, likePost, commentPost, deletePost } from '../controllers/posts.js';
 
